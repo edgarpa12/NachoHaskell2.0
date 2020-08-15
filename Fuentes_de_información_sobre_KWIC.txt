@@ -1,0 +1,23 @@
+Fuentes de información sobre KWIC
+
+El problema:
+https://www.cs.cmu.edu/~ModProb/KWIC.html
+https://en.wikipedia.org/wiki/Key_Word_in_Context
+https://www.librarianshipstudies.com/2017/02/keyword-in-context-kwic-indexing.html
+http://www.cs.uleth.ca/~forsyth/seminar/problems/kwic.html
+https://users.cs.duke.edu/~ola/courses/cps100e/assign/kwic.html
+
+La invención:
+https://web.archive.org/web/20080913121526/http://www.research.ibm.com/journal/rd/024/ibmrd0204H.pdf
+http://altaplana.com/Luhn-KWICindexing.pdf
+
+Modularización en Ingeniería del Software:
+Parnas. On the Criteria To Be Used in Decomposing Systems into Modules
+https://dl.acm.org/doi/10.1145/361598.361623
+http://rule11.tech/papers/1971-decomposing-parnas.pdf
+https://web.archive.org/web/20070820133530/http://www.acm.org/classics/may96/
+
+Cursos o retos:
+http://www.cs.umd.edu/~nelson/classes/resources/SoftEng/ProbSpecificationSoftArchSEIII.pdf
+http://st.inf.tu-dresden.de/files/teaching/ws11/st2/slides/25-kwic-example-2x2.pdf
+https://www.cs.cmu.edu/afs/cs/project/able/ftp/intro_softarch/intro_softarch.pdf
