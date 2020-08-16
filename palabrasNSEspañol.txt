@@ -562,3 +562,12 @@ sobre
 tras
 versus
 vía
+.
+:
+;
+-
+¡
+!
+¿
+?
+,

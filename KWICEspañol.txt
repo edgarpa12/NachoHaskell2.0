@@ -1,0 +1,27 @@
+KWIC Simple
+
+america : guerra civil >< capitan
+ascenso >< el
+blancanieves y los siete enanitos ><
+capitan america : guerra civil ><
+civil >< capitan america : guerra
+enanitos >< blancanieves y los siete
+galaxias >< la guerra de las
+guerra civil >< capitan america :
+guerra de las galaxias >< la
+sabio y el pobre >< el rico , el
+
+----------------------------------------------------
+
+KWIC Alineado
+
+                                                    capitan AMERICA : guerra civil
+                                                         el ASCENSO
+                                                            BLANCANIEVES y los siete enanitos
+                                                            CAPITAN america : guerra civil
+                                   capitan america : guerra CIVIL
+                                   blancanieves y los siete ENANITOS
+                                           la guerra de las GALAXIAS
+                                          capitan america : GUERRA civil
+                                                         la GUERRA de las galaxias
+                                               el rico , el SABIO y el pobre

@@ -1,0 +1,25 @@
+KWIC Simple
+
+artist as a young man >< a portrait of the
+ascent of man >< the
+descent of man ><
+man >< descent of
+man >< the ascent of
+man and the sea >< the old
+man >< a portrait of the artist as a young
+portrait of the artist as a young man >< a
+sea >< the old man and the
+
+----------------------------------------------------
+
+KWIC Alineado
+
+                                          a portrait of the ARTIST as a young man
+                                                        the ASCENT of man
+                                                            DESCENT of man
+                                                 descent of MAN
+                                              the ascent of MAN
+                                                    the old MAN and the sea
+                        a portrait of the artist as a young MAN
+                                                          a PORTRAIT of the artist as a young man
+                                        the old man and the SEA
