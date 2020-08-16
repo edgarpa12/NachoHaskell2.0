@@ -8,8 +8,8 @@ main = do
     --titulos <- getLine
     --putStrLn "Digite el nombre con el archivo con palabras no significativas:"
     --palabrasNS <- getLine
-    putStrLn "Digite el nombre con el archivo de salida:"
-    output <- getLine
+    --putStrLn "Digite el nombre con el archivo de salida:"
+    --output <- getLine
     handleTitulos <- openFile "titulosIngles.txt" ReadMode
     contentTitulos <- hGetContents handleTitulos
     handlePalabrasNS <- openFile "noSignificativasIngles.txt" ReadMode
@@ -21,12 +21,12 @@ main = do
         titulosLower = [[map toLower palabra | palabra <- titulo] | titulo <- titulos]
         pSignificativas = sort (deleteDuplicate (concat (aplicarFiltro palabrasNS titulosLower)))
         listaRenovadas = filter (not.null) (aplicarAll pSignificativas titulosLower)
-        hola = func ["Hola"]
 
     --print titulos
     --print titulosLower
-    print hola
-    --mapM_ (print . unwords) listaRenovadas
+    
+    mapM_ (print . unwords) listaRenovadas
+    --mapM_ print listaRenovadas
     --writeFile output (listaRenovadas)
     hClose handleTitulos
     hClose handlePalabrasNS
@@ -43,7 +43,7 @@ aplicarFiltro palabrasNS titulos
 aplicarKWIC :: String -> [String] ->  [String]
 aplicarKWIC palabra titulo = do
     let indice = elemIndices palabra titulo
-    let kwic = if indice == [] then [] else take (head indice) titulo ++[map toUpper (titulo !! head indice)] ++ drop (head indice + 1 ) titulo
+    let kwic = if indice == [] then [] else func(take (head indice) titulo) ++[map toUpper (titulo !! head indice)] ++ drop (head indice + 1 ) titulo
     kwic
 
 aplicarKWICSimple :: String -> [String] ->  [String]
@@ -63,9 +63,8 @@ deleteDuplicate :: (Eq a) => [a] -> [a]
 deleteDuplicate [] = []
 deleteDuplicate (elemento:lista) = elemento : deleteDuplicate (filter (/= elemento) lista)
 
-func :: [String] -> [[String]]
+func :: [String] -> [String]
 func lista = do
-  let recorre p=if p<=50 then ["Elemento "]: [lista] else [["-"]]
-  let cantidad_elementos= 0
-  let salida=recorre cantidad_elementos
+  let recorre p=if p > 0 then [""] ++ recorre(p-1) else lista
+  let salida =  (recorre ( 100 - ((length (concat  lista)) + length lista)))
   salida
