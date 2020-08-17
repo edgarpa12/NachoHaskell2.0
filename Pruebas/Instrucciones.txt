@@ -1,0 +1,5 @@
+Instrucciones Ejecución
+-> Compilar el archivo main.hs con ghci.
+-> Ingresar el nombre del archivo a utilizar de títulos asignándole .txt al final.
+-> Ingresar el nombre del archivo a utilizar de palabras no significativas asignándole .txt al final.
+-> Ingresar el nombre que desea tenga el archivo de salida asignándole .txt al final.
